@@ -6,7 +6,7 @@ const app = express();
 // Returns a welcome message.
 app.get("/", (req, res) => {
   res.json({
-    motd: "Welcome to the Express.js API!",
+    motd: "Welcome to the Express.js API! This message has gone through the new CI/CD pipeline!",
     endpoints: ["/api/time"],
   });
 });
