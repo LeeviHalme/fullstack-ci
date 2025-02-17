@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Use the latest JavaScript features
+    "module": "CommonJS", // Node.js uses CommonJS module resolution
+    "rootDir": "src", // Specify the root folder containing TypeScript files
+    "outDir": "dist", // Redirect output structure to the dist folder
+    "strict": true, // Enable strict type-checking options
+    "esModuleInterop": true, // Enables interoperability between CommonJS and ES Modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Enforce consistent casing in module names
+  },
+  "include": ["src/**/*"], // Include all TypeScript files in the src folder
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist folders
+}
