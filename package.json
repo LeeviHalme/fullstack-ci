@@ -1,0 +1,45 @@
+{
+  "name": "fullstack-ci",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Example Express application with integration & deployment pipeline",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeviHalme/fullstack-ci.git"
+  },
+  "author": "Leevi Halme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeviHalme/fullstack-ci/issues"
+  },
+  "homepage": "https://github.com/LeeviHalme/fullstack-ci#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.4",
+    "@types/supertest": "^6.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/parser": "^8.24.0",
+    "eslint": "^9.20.1",
+    "globals": "^15.15.0",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
